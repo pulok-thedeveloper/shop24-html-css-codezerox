@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Navbar Style */
+#navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  color: #218050;
+}
+
+#menu li {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.searchIcon,
+.cartIcon {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.searchIcon {
+  margin-right: 20px;
+}
+
+/* Hero Section Style */
+
+#hero {
+  padding: 50px;
+  width: 100%;
+  height: 90vh;
+}
+
+#hero .main-section {
+  background-color: #133f29;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 50px;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+#hero .main-section h1 {
+  font-size: 70px;
+}
+
+#hero .main-section h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.shop-now-btn {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  font-size: 17px;
+  font-weight: 700;
+  color: #133f29;
+}
+
+/* Top Categories Style */
+
+#top-categories {
+  margin: 0 30px 50px 30px;
+}
+
+#top-categories h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#categories {
+  display: flex;
+  justify-content: center;
+}
+
+.category-img {
+  width: 140px;
+  height: 140px;
+  background-color: #ffdcdc;
+  border-radius: 20px;
+}
+
+.category-card {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.category-card img {
+  width: 100%;
+}
+
+.category-card h4 {
+  color: #218050;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.category-img {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
